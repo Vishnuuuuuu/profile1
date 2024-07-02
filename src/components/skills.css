@@ -1,0 +1,126 @@
+/* Updated CSS for Skills Section */
+.skills-section {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #f5b22e;
+}
+
+.skillset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skillset .tech-icon {
+  margin: 15px;
+  padding: 20px;
+  background: #333;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+  width: 120px; /* Adjust size to be a bit larger */
+  height: 120px; /* Adjust size to be a bit larger */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #f5b22e;
+}
+
+.skillset .tech-icon:hover {
+  transform: scale(1.1);
+}
+
+.skillset .tech-icon img {
+  width: 80%;
+  height: 80%;
+}
+
+.skillset .tech-icon svg {
+  width: 80%;
+  height: 80%;
+  color: #f5b22e; /* Ensure icons are visible */
+}
+
+.skillset .tech-icon span {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.tools-section {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+
+.tools-heading {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #f5b22e;
+}
+
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tools .tech-icon {
+  margin: 15px;
+  padding: 20px;
+  background: #333;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+  width: 120px; /* Adjust size to be a bit larger */
+  height: 120px; /* Adjust size to be a bit larger */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #f5b22e;
+}
+
+.tools .tech-icon:hover {
+  transform: scale(1.1);
+}
+
+.tools .tech-icon img {
+  width: 80%;
+  height: 80%;
+}
+
+.tools .tech-icon svg {
+  width: 80%;
+  height: 80%;
+  color: #f5b22e; /* Ensure icons are visible */
+}
+
+.tools .tech-icon span {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.tools .tech-icon.vs-code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools .tech-icon.vs-code svg {
+  width: 60%;
+  height: 60%;
+  color: #f5b22e;
+  margin-bottom: 5px; /* Add margin to position the icon correctly */
+}
+
+.tools .tech-icon span {
+  font-size: 0.9em;
+}

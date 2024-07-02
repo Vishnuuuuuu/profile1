@@ -122,8 +122,8 @@ export const AboutContainer = styled.div`
 `;
 
 export const ProfilePic = styled.img`
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   margin-right: 2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

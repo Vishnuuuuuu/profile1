@@ -1,0 +1,62 @@
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Adjusted to min-height for better responsiveness */
+    /*background: url('../assets/background.jpg') no-repeat center center/cover;*/
+
+    color: #fff;
+    padding: 0 1rem; /* Added padding for smaller screens */
+  }
+  
+  .about-content {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+  }
+  
+  .about-header {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .highlight {
+    color: #ff8c00;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .quote {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #ff8c00;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 2.5rem;
+    }
+  
+    ul li {
+      font-size: 1rem;
+    }
+  
+    .quote {
+      font-size: 1.2rem;
+    }
+  }
+  

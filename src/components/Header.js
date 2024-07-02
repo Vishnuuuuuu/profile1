@@ -11,6 +11,7 @@ const Header = () => {
         <MenuLink to="/projects">Projects</MenuLink>
         <MenuLink to="/skills">Skills</MenuLink>
         <MenuLink to="/contact">Contact</MenuLink>
+        <MenuLink to="/resume">Resume</MenuLink> 
       </Menu>
     </Nav>
   );
