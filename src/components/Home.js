@@ -20,7 +20,8 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> @ VISHNU PRASAD S </strong>
+                {/* <strong className="main-name"> @ VISHNU PRASAD S </strong> */}
+                <strong className="main-name">  SHASHIDHAR L N</strong>
               </h1>
 
               <div className="type-container">
@@ -32,7 +33,7 @@ function Home() {
                   As a full-stack developer, I apply my passion for coding to develop end-to-end solutions using <strong>Node.js</strong>, modern JavaScript libraries and frameworks like <strong>React.js</strong>, and databases like <strong>MongoDB</strong>.
                 </p>
                 <p>
-                  I am fluent in languages like <strong> Java, Javascript,Python,</strong>, and <strong>No code tools</strong>.
+                  I am fluent in languages like <strong> Java, Javascript,Python, AI&ML</strong>, and <strong>No code tools</strong>.
                 </p>
                 <p>
                   My field of interest includes building new <strong>Web Technologies and Products</strong>, exploring the realms of <strong>Artificial Intelligence</strong>, and delving into areas related to <strong>AI an prompt Engg</strong>.
