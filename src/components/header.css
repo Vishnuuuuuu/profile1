@@ -1,0 +1,58 @@
+/* Main Nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: #ff8c00;
+}
+
+/* Hamburger Menu Icon */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  .menu {
+    display: none !important; /* Make sure the regular menu is hidden on small screens */
+  }
+
+
+  .hamburger {
+    display: block; /* Show the hamburger menu */
+  }
+
+  .menu.open {
+    display: flex !important; /* Show the menu when open */
+    flex-direction: column;
+    gap: 20px;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 20px;
+  }
+}

@@ -1,15 +1,31 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiGit,
-  DiJava,
+  DiGithubBadge,
   DiJavascript1,
   DiMongodb,
   DiNodejs,
   DiPython,
-  DiReact,
+  DiReact
 } from "react-icons/di";
-import { SiFirebase, SiMysql, SiPostman, SiVercel, SiVisualstudiocode } from "react-icons/si";
+import {
+  SiApollographql // Used for API Development
+  , // Added FlutterFlow
+  SiCanva,
+  SiCodesandbox,
+  SiExpress,
+  SiFirebase,
+  SiFlutter,
+  SiGlitch,
+  SiLinux,
+  SiMysql,
+  SiOpenai,
+  SiPostman,
+  SiVercel,
+  SiVisualstudiocode,
+  SiWordpress
+} from "react-icons/si"; // SiOpenai is used for ChatGPT
+
 import "./skills.css";
 
 function Techstack() {
@@ -42,13 +58,22 @@ function Techstack() {
             <DiPython />
             <span>Python</span>
           </Col>
-          <Col xs={3} md={2} className="tech-icon">
-            <DiJava />
-            <span>Java</span>
-          </Col>
+          
           <Col xs={3} md={2} className="tech-icon">
             <SiMysql />
-            
+            <span>MySQL</span>
+          </Col>
+          <Col xs={3} md={2} className="tech-icon">
+            <SiExpress />
+            <span>Express.js</span>
+          </Col>
+          <Col xs={3} md={2} className="tech-icon">
+            <SiApollographql />
+            <span>API Development</span> {/* API Development with Apollo GraphQL */}
+          </Col>
+          <Col xs={3} md={2} className="tech-icon">
+            <SiWordpress />
+            <span>WordPress</span>
           </Col>
         </Row>
       </div>
@@ -57,21 +82,47 @@ function Techstack() {
         <h2 className="tools-heading">Tools I Use</h2>
         <Row className="tools">
           <Col xs={3} md={2} className="tech-icon">
-            <SiVercel />
-            <span>Vercel</span>
+            <SiOpenai />
+            <span>ChatGPT</span>
           </Col>
-          <Col xs={3} md={2} className="tech-icon vs-code">
-            <SiVisualstudiocode />
-            <span>VSCode</span>
+          <Col xs={3} md={2} className="tech-icon">
+            <SiLinux />
+            <span>Linux</span>
           </Col>
           <Col xs={3} md={2} className="tech-icon">
             <SiPostman />
             <span>Postman</span>
           </Col>
           <Col xs={3} md={2} className="tech-icon">
-            <DiGit />
-            <span>Git</span>
+            <SiCanva />
+            <span>Canva</span>
           </Col>
+          <Col xs={3} md={2} className="tech-icon">
+            <DiGithubBadge />
+            <span>GitHub</span>
+          </Col>
+          <Col xs={3} md={2} className="tech-icon">
+            <SiVercel />
+            <span>Vercel</span>
+          </Col>
+          <Col xs={3} md={2} className="tech-icon">
+            <SiFlutter />
+            <span>FlutterFlow</span>  {/* New Tool: FlutterFlow */}
+          </Col>
+          <Col xs={3} md={2} className="tech-icon">
+            <SiCodesandbox />
+            <span>CodeSandbox</span> {/* New Tool: CodeSandbox */}
+          </Col>
+          <Col xs={3} md={2} className="tech-icon">
+            <SiGlitch />
+            <span>Glitch</span> {/* New Tool: Glitch */}
+          </Col>
+          <Col xs={3} md={2} className="tech-icon vs-code">
+            <SiVisualstudiocode />
+            <span>VSCode</span>
+          </Col>
+          
+          
         </Row>
       </div>
     </>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { PDFReader } from "react-read-pdf";
 import styled from "styled-components";
-import pdf from "../assets/Vpresumene Updated.pdf"; // Ensure the correct path to your PDF
+import pdf from "../assets/Vpresumene Updated(Sep).pdf"; // Ensure the correct path to your PDF
 
 const ResumeContainer = styled.div`
   display: flex;
